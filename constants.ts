@@ -39,7 +39,7 @@ export const TUNING_SYSTEMS: TuningSystem[] = [
     ],
     piece: {
       name: "Fragmento Pitagórico",
-      audioUrl: "/files/pythagorean.mp3",
+      audioUrl: "https://github.com/fernandomoraangel/resonancias-ocultas/releases/latest/download/pythagorean.mp3",
       noteSequence: [
         { note: 0, duration: 0.5 },
         { note: 4, duration: 0.5 },
@@ -66,7 +66,7 @@ export const TUNING_SYSTEMS: TuningSystem[] = [
     ],
     piece: {
       name: "Melodía Temperada",
-      audioUrl: "/files/12edo.mp3",
+      audioUrl: "https://github.com/fernandomoraangel/resonancias-ocultas/releases/latest/download/12edo.mp3",
       noteSequence: [
         { note: 0, duration: 0.4 },
         { note: 2, duration: 0.4 },
@@ -91,7 +91,7 @@ export const TUNING_SYSTEMS: TuningSystem[] = [
     ],
     piece: {
       name: "Estudio en 19",
-      audioUrl: "/files/19edo.mp3",
+      audioUrl: "https://github.com/fernandomoraangel/resonancias-ocultas/releases/latest/download/19edo.mp3",
     },
   },
   {
@@ -107,7 +107,7 @@ export const TUNING_SYSTEMS: TuningSystem[] = [
     ],
     piece: {
       name: "Fantasía Arábiga",
-      audioUrl: "/files/22edo.mp3",
+      audioUrl: "https://github.com/fernandomoraangel/resonancias-ocultas/releases/latest/download/22edo.mp3",
       noteSequence: [
         { note: 0, duration: 0.5 },
         { note: 4, duration: 0.25 },
@@ -133,7 +133,7 @@ export const TUNING_SYSTEMS: TuningSystem[] = [
     ],
     piece: {
       name: "Invención Mesotónica",
-      audioUrl: "/files/31edo.mp3",
+      audioUrl: "https://github.com/fernandomoraangel/resonancias-ocultas/releases/latest/download/31edo.mp3",
       noteSequence: [
         { note: 0, duration: 0.4 },
         { note: 10, duration: 0.4 },
@@ -158,7 +158,7 @@ export const TUNING_SYSTEMS: TuningSystem[] = [
     ],
     piece: {
       name: "Viaje a la Tritava",
-      audioUrl: "/files/bohlen-pierce.mp3",
+      audioUrl: "https://github.com/fernandomoraangel/resonancias-ocultas/releases/latest/download/bohlen-pierce.mp3",
       noteSequence: [
         { note: 0, duration: 0.5 },
         { note: 2, duration: 0.5 },
