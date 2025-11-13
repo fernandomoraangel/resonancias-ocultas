@@ -1,0 +1,281 @@
+09:05:00.931439 exec-cmd.c:237          trace: resolved executable dir: C:/Program Files/Git/mingw64/bin
+09:05:00.934014 git.c:460               trace: built-in: git push origin main --force --progress
+09:05:00.937149 run-command.c:655       trace: run_command: GIT_DIR=.git git remote-https origin https://github.com/fernandomoraangel/resonancias-ocultas.git
+09:05:00.952312 exec-cmd.c:237          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+09:05:00.954383 git.c:750               trace: exec: git-remote-https origin https://github.com/fernandomoraangel/resonancias-ocultas.git
+09:05:00.954383 run-command.c:655       trace: run_command: git-remote-https origin https://github.com/fernandomoraangel/resonancias-ocultas.git
+09:05:00.971047 exec-cmd.c:237          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+09:05:00.978932 http.c:703              == Info: Couldn't find host github.com in the (nil) file; using defaults
+09:05:01.005861 http.c:703              == Info:   Trying 140.82.112.4:443...
+09:05:01.124442 http.c:703              == Info: Connected to github.com (140.82.112.4) port 443 (#0)
+09:05:01.124442 http.c:703              == Info: ALPN: offers http/1.1
+09:05:01.131651 http.c:703              == Info:  CAfile: C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+09:05:01.131651 http.c:703              == Info:  CApath: none
+09:05:01.131651 http.c:703              == Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+09:05:01.288694 http.c:703              == Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+09:05:01.288694 http.c:703              == Info: TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+09:05:01.288694 http.c:703              == Info: TLSv1.3 (IN), TLS handshake, Certificate (11):
+09:05:01.291293 http.c:703              == Info: TLSv1.3 (IN), TLS handshake, CERT verify (15):
+09:05:01.291293 http.c:703              == Info: TLSv1.3 (IN), TLS handshake, Finished (20):
+09:05:01.291293 http.c:703              == Info: TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+09:05:01.291293 http.c:703              == Info: TLSv1.3 (OUT), TLS handshake, Finished (20):
+09:05:01.291293 http.c:703              == Info: SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+09:05:01.291293 http.c:703              == Info: ALPN: server accepted http/1.1
+09:05:01.291293 http.c:703              == Info: Server certificate:
+09:05:01.291293 http.c:703              == Info:  subject: CN=github.com
+09:05:01.291293 http.c:703              == Info:  start date: Feb  5 00:00:00 2025 GMT
+09:05:01.291293 http.c:703              == Info:  expire date: Feb  5 23:59:59 2026 GMT
+09:05:01.291293 http.c:703              == Info:  subjectAltName: host "github.com" matched cert's "github.com"
+09:05:01.291293 http.c:703              == Info:  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo ECC Domain Validation Secure Server CA
+09:05:01.291293 http.c:703              == Info:  SSL certificate verify ok.
+09:05:01.291293 http.c:650              => Send header, 0000000219 bytes (0x000000db)
+09:05:01.291293 http.c:662              => Send header: GET /fernandomoraangel/resonancias-ocultas.git/info/refs?service=git-receive-pack HTTP/1.1
+09:05:01.291293 http.c:662              => Send header: Host: github.com
+09:05:01.291293 http.c:662              => Send header: User-Agent: git/2.38.1.windows.1
+09:05:01.291293 http.c:662              => Send header: Accept: */*
+09:05:01.291293 http.c:662              => Send header: Accept-Encoding: deflate, gzip, br, zstd
+09:05:01.291293 http.c:662              => Send header: Pragma: no-cache
+09:05:01.291293 http.c:662              => Send header:
+09:05:01.391461 http.c:703              == Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+09:05:01.391461 http.c:703              == Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+09:05:01.391461 http.c:703              == Info: old SSL session ID is stale, removing
+09:05:01.397247 http.c:703              == Info: Mark bundle as not supporting multiuse
+09:05:01.397247 http.c:650              <= Recv header, 0000000027 bytes (0x0000001b)
+09:05:01.397247 http.c:662              <= Recv header: HTTP/1.1 401 Unauthorized
+09:05:01.397247 http.c:650              <= Recv header, 0000000026 bytes (0x0000001a)
+09:05:01.397247 http.c:662              <= Recv header: Server: GitHub-Babel/3.0
+09:05:01.397247 http.c:650              <= Recv header, 0000000054 bytes (0x00000036)
+09:05:01.397247 http.c:662              <= Recv header: Content-Security-Policy: default-src 'none'; sandbox
+09:05:01.397247 http.c:650              <= Recv header, 0000000041 bytes (0x00000029)
+09:05:01.397247 http.c:662              <= Recv header: Content-Type: text/plain; charset=UTF-8
+09:05:01.397247 http.c:650              <= Recv header, 0000000040 bytes (0x00000028)
+09:05:01.397247 http.c:662              <= Recv header: www-authenticate: Basic realm="GitHub"
+09:05:01.397247 http.c:650              <= Recv header, 0000000020 bytes (0x00000014)
+09:05:01.397247 http.c:662              <= Recv header: Content-Length: 26
+09:05:01.397247 http.c:650              <= Recv header, 0000000037 bytes (0x00000025)
+09:05:01.397247 http.c:662              <= Recv header: Date: Thu, 13 Nov 2025 14:05:01 GMT
+09:05:01.397247 http.c:650              <= Recv header, 0000000056 bytes (0x00000038)
+09:05:01.397247 http.c:662              <= Recv header: X-GitHub-Request-Id: 2580:64679:9384DC:CC14C0:6915E58D
+09:05:01.397247 http.c:650              <= Recv header, 0000000023 bytes (0x00000017)
+09:05:01.397247 http.c:662              <= Recv header: X-Frame-Options: DENY
+09:05:01.397247 http.c:650              <= Recv header, 0000000073 bytes (0x00000049)
+09:05:01.397247 http.c:662              <= Recv header: Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+09:05:01.397247 http.c:650              <= Recv header, 0000000002 bytes (0x00000002)
+09:05:01.397247 http.c:662              <= Recv header:
+09:05:01.397247 http.c:703              == Info: Connection #0 to host github.com left intact
+09:05:01.397247 run-command.c:655       trace: run_command: ''\''C:\Program Files\GitHub CLI\gh.exe'\'' auth git-credential get'
+09:05:01.552868 http.c:703              == Info: Found bundle for host: 0x266dbb75ad0 [serially]
+09:05:01.553413 http.c:703              == Info: Re-using existing connection #0 with host github.com
+09:05:01.553413 http.c:703              == Info: Connected to github.com (140.82.112.4) port 443 (#0)
+09:05:01.553413 http.c:703              == Info: Server auth using Basic with user 'fernandomoraangel'
+09:05:01.553413 http.c:650              => Send header, 0000000322 bytes (0x00000142)
+09:05:01.553413 http.c:662              => Send header: GET /fernandomoraangel/resonancias-ocultas.git/info/refs?service=git-receive-pack HTTP/1.1
+09:05:01.553413 http.c:662              => Send header: Host: github.com
+09:05:01.553413 http.c:662              => Send header: Authorization: Basic <redacted>
+09:05:01.553413 http.c:662              => Send header: User-Agent: git/2.38.1.windows.1
+09:05:01.553413 http.c:662              => Send header: Accept: */*
+09:05:01.553413 http.c:662              => Send header: Accept-Encoding: deflate, gzip, br, zstd
+09:05:01.553413 http.c:662              => Send header: Pragma: no-cache
+09:05:01.553413 http.c:662              => Send header:
+09:05:01.800709 http.c:703              == Info: Mark bundle as not supporting multiuse
+09:05:01.800709 http.c:650              <= Recv header, 0000000017 bytes (0x00000011)
+09:05:01.800709 http.c:662              <= Recv header: HTTP/1.1 200 OK
+09:05:01.800709 http.c:650              <= Recv header, 0000000026 bytes (0x0000001a)
+09:05:01.800709 http.c:662              <= Recv header: Server: GitHub-Babel/3.0
+09:05:01.800709 http.c:650              <= Recv header, 0000000060 bytes (0x0000003c)
+09:05:01.800709 http.c:662              <= Recv header: Content-Type: application/x-git-receive-pack-advertisement
+09:05:01.800709 http.c:650              <= Recv header, 0000000054 bytes (0x00000036)
+09:05:01.800709 http.c:662              <= Recv header: Content-Security-Policy: default-src 'none'; sandbox
+09:05:01.800709 http.c:650              <= Recv header, 0000000040 bytes (0x00000028)
+09:05:01.800709 http.c:662              <= Recv header: expires: Fri, 01 Jan 1980 00:00:00 GMT
+09:05:01.800709 http.c:650              <= Recv header, 0000000018 bytes (0x00000012)
+09:05:01.800709 http.c:662              <= Recv header: pragma: no-cache
+09:05:01.800709 http.c:650              <= Recv header, 0000000053 bytes (0x00000035)
+09:05:01.800709 http.c:662              <= Recv header: Cache-Control: no-cache, max-age=0, must-revalidate
+09:05:01.800709 http.c:650              <= Recv header, 0000000023 bytes (0x00000017)
+09:05:01.800709 http.c:662              <= Recv header: Vary: Accept-Encoding
+09:05:01.800709 http.c:650              <= Recv header, 0000000028 bytes (0x0000001c)
+09:05:01.800709 http.c:662              <= Recv header: Transfer-Encoding: chunked
+09:05:01.800709 http.c:650              <= Recv header, 0000000037 bytes (0x00000025)
+09:05:01.800709 http.c:662              <= Recv header: Date: Thu, 13 Nov 2025 14:05:01 GMT
+09:05:01.800709 http.c:650              <= Recv header, 0000000056 bytes (0x00000038)
+09:05:01.800709 http.c:662              <= Recv header: X-GitHub-Request-Id: 2580:64679:938794:CC1826:6915E58D
+09:05:01.800709 http.c:650              <= Recv header, 0000000023 bytes (0x00000017)
+09:05:01.800709 http.c:662              <= Recv header: X-Frame-Options: DENY
+09:05:01.800709 http.c:650              <= Recv header, 0000000073 bytes (0x00000049)
+09:05:01.800709 http.c:662              <= Recv header: Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+09:05:01.800709 http.c:650              <= Recv header, 0000000002 bytes (0x00000002)
+09:05:01.800709 http.c:662              <= Recv header:
+09:05:01.800709 http.c:703              == Info: Connection #0 to host github.com left intact
+09:05:01.800709 run-command.c:655       trace: run_command: ''\''C:\Program Files\GitHub CLI\gh.exe'\'' auth git-credential store'
+09:05:01.956536 run-command.c:655       trace: run_command: git send-pack --stateless-rpc --helper-status --thin --progress https://github.com/fernandomoraangel/resonancias-ocultas.git/ --stdin
+09:05:01.969155 exec-cmd.c:237          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+09:05:01.971906 git.c:460               trace: built-in: git send-pack --stateless-rpc --helper-status --thin --progress https://github.com/fernandomoraangel/resonancias-ocultas.git/ --stdin
+09:05:01.976160 run-command.c:655       trace: run_command: git pack-objects --all-progress-implied --revs --stdout --thin --delta-base-offset --progress
+09:05:01.991857 exec-cmd.c:237          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+09:05:01.994538 git.c:460               trace: built-in: git pack-objects --all-progress-implied --revs --stdout --thin --delta-base-offset --progress
+Enumerating objects: 51, done.
+Counting objects:   1% (1/51)
+Counting objects:   3% (2/51)
+Counting objects:   5% (3/51)
+Counting objects:   7% (4/51)
+Counting objects:   9% (5/51)
+Counting objects:  11% (6/51)
+Counting objects:  13% (7/51)
+Counting objects:  15% (8/51)
+Counting objects:  17% (9/51)
+Counting objects:  19% (10/51)
+Counting objects:  21% (11/51)
+Counting objects:  23% (12/51)
+Counting objects:  25% (13/51)
+Counting objects:  27% (14/51)
+Counting objects:  29% (15/51)
+Counting objects:  31% (16/51)
+Counting objects:  33% (17/51)
+Counting objects:  35% (18/51)
+Counting objects:  37% (19/51)
+Counting objects:  39% (20/51)
+Counting objects:  41% (21/51)
+Counting objects:  43% (22/51)
+Counting objects:  45% (23/51)
+Counting objects:  47% (24/51)
+Counting objects:  49% (25/51)
+Counting objects:  50% (26/51)
+Counting objects:  52% (27/51)
+Counting objects:  54% (28/51)
+Counting objects:  56% (29/51)
+Counting objects:  58% (30/51)
+Counting objects:  60% (31/51)
+Counting objects:  62% (32/51)
+Counting objects:  64% (33/51)
+Counting objects:  66% (34/51)
+Counting objects:  68% (35/51)
+Counting objects:  70% (36/51)
+Counting objects:  72% (37/51)
+Counting objects:  74% (38/51)
+Counting objects:  76% (39/51)
+Counting objects:  78% (40/51)
+Counting objects:  80% (41/51)
+Counting objects:  82% (42/51)
+Counting objects:  84% (43/51)
+Counting objects:  86% (44/51)
+Counting objects:  88% (45/51)
+Counting objects:  90% (46/51)
+Counting objects:  92% (47/51)
+Counting objects:  94% (48/51)
+Counting objects:  96% (49/51)
+Counting objects:  98% (50/51)
+Counting objects: 100% (51/51)
+Counting objects: 100% (51/51), done.
+Delta compression using up to 12 threads
+Compressing objects:   2% (1/47)
+Compressing objects:   4% (2/47)
+Compressing objects:   6% (3/47)
+Compressing objects:   8% (4/47)
+Compressing objects:  10% (5/47)
+Compressing objects:  12% (6/47)
+Compressing objects:  14% (7/47)
+Compressing objects:  17% (8/47)
+Compressing objects:  19% (9/47)
+Compressing objects:  21% (10/47)
+Compressing objects:  23% (11/47)
+Compressing objects:  25% (12/47)
+Compressing objects:  27% (13/47)
+Compressing objects:  29% (14/47)
+Compressing objects:  31% (15/47)
+Compressing objects:  34% (16/47)
+Compressing objects:  36% (17/47)
+Compressing objects:  38% (18/47)
+Compressing objects:  40% (19/47)
+Compressing objects:  42% (20/47)
+Compressing objects:  44% (21/47)
+Compressing objects:  46% (22/47)
+Compressing objects:  48% (23/47)
+Compressing objects:  51% (24/47)
+Compressing objects:  53% (25/47)
+Compressing objects:  55% (26/47)
+Compressing objects:  57% (27/47)
+Compressing objects:  59% (28/47)
+Compressing objects:  61% (29/47)
+Compressing objects:  63% (30/47)
+Compressing objects:  65% (31/47)
+Compressing objects:  68% (32/47)
+Compressing objects:  70% (33/47)
+Compressing objects:  72% (34/47)
+Compressing objects:  74% (35/47)
+Compressing objects:  76% (36/47)
+Compressing objects:  78% (37/47)
+Compressing objects:  80% (38/47)
+Compressing objects:  82% (39/47)
+Compressing objects:  85% (40/47)
+Compressing objects:  87% (41/47)
+Compressing objects:  89% (42/47)
+Compressing objects:  91% (43/47)
+Compressing objects:  93% (44/47)
+Compressing objects:  95% (45/47)
+Compressing objects:  97% (46/47)
+Compressing objects: 100% (47/47)
+Compressing objects: 100% (47/47), done.
+Writing objects:   1% (1/51)
+Writing objects:   3% (2/51)
+Writing objects:   5% (3/51)
+Writing objects:   7% (4/51)
+Writing objects:   9% (5/51)
+Writing objects:  11% (6/51)
+Writing objects:  13% (7/51)
+Writing objects:  15% (8/51)
+Writing objects:  21% (11/51)
+Writing objects:  23% (12/51)
+Writing objects:  25% (13/51)
+Writing objects:  27% (14/51)
+Writing objects:  29% (15/51)
+Writing objects:  31% (16/51)
+Writing objects:  33% (17/51)
+Writing objects:  35% (18/51)
+Writing objects:  37% (19/51)
+Writing objects:  41% (21/51)
+Writing objects:  43% (22/51)
+Writing objects:  45% (23/51)
+Writing objects:  47% (24/51)
+Writing objects:  49% (25/51)
+Writing objects:  50% (26/51)
+Writing objects:  52% (27/51)
+Writing objects:  54% (28/51)
+Writing objects:  56% (29/51)
+Writing objects:  58% (30/51)
+Writing objects:  60% (31/51)
+Writing objects:  62% (32/51)
+Writing objects:  64% (33/51)
+Writing objects:  66% (34/51)
+Writing objects:  68% (35/51)
+Writing objects:  70% (36/51)
+Writing objects:  72% (37/51)
+Writing objects:  74% (38/51)
+Writing objects:  76% (39/51)
+Writing objects:  80% (41/51)
+Writing objects:  82% (42/51)
+Writing objects:  84% (43/51)
+Writing objects:  86% (44/51)
+Writing objects:  88% (45/51)
+Writing objects:  90% (46/51)
+Writing objects:  92% (47/51)
+Writing objects:  94% (48/51)
+Writing objects:  96% (49/51)
+Writing objects:  98% (50/51)
+Writing objects: 100% (51/51)
+Writing objects: 100% (51/51), 20.44 MiB | 96.88 MiB/s, done.
+Total 51 (delta 9), reused 0 (delta 0), pack-reused 0
+09:05:02.696858 http.c:703              == Info: Found bundle for host: 0x266dbb75ad0 [serially]
+09:05:02.696858 http.c:703              == Info: Re-using existing connection #0 with host github.com
+09:05:02.696858 http.c:703              == Info: Connected to github.com (140.82.112.4) port 443 (#0)
+09:05:02.696858 http.c:703              == Info: Server auth using Basic with user 'fernandomoraangel'
+09:05:02.696858 http.c:650              => Send header, 0000000401 bytes (0x00000191)
+09:05:02.696858 http.c:662              => Send header: POST /fernandomoraangel/resonancias-ocultas.git/git-receive-pack HTTP/1.1
+09:05:02.696858 http.c:662              => Send header: Host: github.com
+09:05:02.696858 http.c:662              => Send header: Authorization: Basic <redacted>
+09:05:02.696858 http.c:662              => Send header: User-Agent: git/2.38.1.windows.1
+09:05:02.696858 http.c:662              => Send header: Accept-Encoding: deflate, gzip, br, zstd
+09:05:02.696858 http.c:662              => Send header: Content-Type: application/x-git-receive-pack-request
+09:05:02.696858 http.c:662              => Send header: Accept: application/x-git-receive-pack-result
+09:05:02.696858 http.c:662              => Send header: Content-Length: 21428559
+09:05:02.696858 http.c:662              => Send header:
